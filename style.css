@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #8b9dc3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #dfe3ee;
+    width: 60%;
+    padding: 8%;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#count{
+    font-size: 4rem;
+    margin: 3rem;
+    font-weight: 600;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 13px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
